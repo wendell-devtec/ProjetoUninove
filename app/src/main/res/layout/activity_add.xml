@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    tools:context=".addActivity">
+
+
+    <Button
+        android:id="@+id/btnAddM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etMessage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/btn"
+        android:backgroundTint="#FFEB3B"
+        android:minWidth="160dp"
+        android:text="Salvar" />
+
+    <EditText
+        android:id="@+id/etMessage"
+        android:layout_width="403dp"
+        android:layout_height="138dp"
+        android:hint="Digite sua Anotação" />
+
+</RelativeLayout>
